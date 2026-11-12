@@ -1,0 +1,6 @@
+MANIFIESTO DE AUDITORÍA DE CUARENTENA — PRÁCTICA 5075 KDD
+Fecha de ejecución: 2026-11-12 19:15:17 UTC
+======================================================================
+
+[FASE 1 - FICHEROS RECHAZADOS POR INTEGRIDAD SHA-256]
+Ningún fichero rechazado en esta ejecución.

@@ -1,0 +1,10 @@
+2026-11-12 20:15:17 | INFO     | ======================================================================
+2026-11-12 20:15:17 | INFO     | INICIO FASE 1: PASARELA DE INTEGRIDAD CRIPTOGRÁFICA (SHA-256)
+2026-11-12 20:15:17 | INFO     | ======================================================================
+2026-11-12 20:15:17 | INFO     | Manifiesto cargado correctamente (3 ficheros declarados).
+2026-11-12 20:15:17 | ERROR    | ALERTA: El fichero 'transacciones_tienda_norte.csv' figura en el manifiesto pero NO existe en C:\Users\EXPERTO\Documents\Big Data aplicado\Practica_5075_Integridad_KDD\raw_batch_202611.
+2026-11-12 20:15:17 | WARNING  | El fichero 'transacciones_tienda_sur.csv' ya fue clasificado en una ejecución previa. Restaura 'raw_batch_202611/' si deseas repetir desde cero.
+2026-11-12 20:15:17 | ERROR    | ALERTA: El fichero 'transacciones_tienda_este.csv' figura en el manifiesto pero NO existe en C:\Users\EXPERTO\Documents\Big Data aplicado\Practica_5075_Integridad_KDD\raw_batch_202611.
+2026-11-12 20:15:17 | INFO     | ----------------------------------------------------------------------
+2026-11-12 20:15:17 | INFO     | RESUMEN FASE 1: 0/2 ficheros válidos (Tasa integridad: 0.00%) | 2 en cuarentena.
+2026-11-12 20:15:17 | INFO     | Manifiesto de cuarentena guardado en: C:\Users\EXPERTO\Documents\Big Data aplicado\Practica_5075_Integridad_KDD\output_samples\quarantine_manifest.txt

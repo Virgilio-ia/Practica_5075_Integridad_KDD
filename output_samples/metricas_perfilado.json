@@ -1,0 +1,61 @@
+{
+  "metadatos_ejecucion": {
+    "fecha_generacion_utc": "2026-11-12 18:37:32 UTC",
+    "estandar_referencia": "ISO/IEC 25012 - Modelo de Calidad de Datos",
+    "ficheros_procesados_fase_2": [
+      "transacciones_tienda_este.csv",
+      "transacciones_tienda_norte.csv"
+    ]
+  },
+  "integridad_criptografica_fase_1": {
+    "ficheros_totales_lote": 3,
+    "ficheros_validados_sha256": 2,
+    "ficheros_rechazados_cuarentena": 1,
+    "tasa_integridad_criptografica_pct": 66.67
+  },
+  "metricas_calidad_iso_25012": {
+    "registros_entrada_staging": 100,
+    "registros_rechazados_cuarentena": 13,
+    "registros_validos_kdd": 87,
+    "tasa_completitud_inicial_pct": 95.0,
+    "tasa_completitud_post_saneamiento_pct": 100.0,
+    "tasa_validez_registros_pct": 87.0,
+    "tasa_unicidad_id_transaccion_pct": 100.0,
+    "desglose_rechazos_por_regla": {
+      "errores_esquema_tiempo_dominio": 10,
+      "duplicados_id": 0,
+      "outliers_estadisticos_iqr": 3
+    },
+    "imputaciones_secundarias": {
+      "categoria": {
+        "estrategia": "moda_estadistica",
+        "valor_imputado": "Electronica",
+        "registros_imputados": 1
+      },
+      "metodo_pago": {
+        "estrategia": "moda_estadistica",
+        "valor_imputado": "Transferencia",
+        "registros_imputados": 1
+      }
+    }
+  },
+  "perfilado_estadistico_variables_clave": {
+    "importe_eur": {
+      "media": 70.99,
+      "mediana_p50": 73.44,
+      "desviacion_estandar": 26.34,
+      "minimo": 12.5,
+      "percentil_25": 53.8,
+      "percentil_75": 85.34,
+      "maximo": 124.47,
+      "umbral_superior_iqr_aplicado": 138.61
+    },
+    "unidades": {
+      "media": 3.79,
+      "mediana_p50": 4.0,
+      "desviacion_estandar": 1.69,
+      "minimo": 1,
+      "maximo": 6
+    }
+  }
+}
